@@ -1,0 +1,90 @@
+/* Moodstocks Demo Style */
+
+#title{
+    font-size:20px;
+    font-style:bold;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.block{
+    margin:7px 25px;
+    padding:3px;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+
+}
+.infoblock {
+    margin:3px 25px;
+    color:#FFFFFF;
+    background-color:rgba(0,0,0,0.5);
+    font-style:bold;
+    text-align:center;
+}
+
+#scanoption{
+    padding:15px;
+    list-style:none;
+    background-color:#2C2D32;
+}
+
+#openStatus {
+    background-color:#80AC3B;
+    text-align:center;
+}
+
+#syncStatus {
+    text-align:center;
+}
+
+#result{
+    background-color:#80AC3B;
+    text-align:center;
+}
+
+#scanButton{
+    margin-top:10px;
+    display:none;
+    -webkit-box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0 inset, rgba(0, 0, 0, 0.0470588) 0 1px 2px;
+    background-color:#F5F5F5;
+    background-image:-webkit-linear-gradient(top, #FFFFFF, #E6E6E6);
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    border-color:rgba(0, 0, 0, 0.0980392) rgba(0, 0, 0, 0.0980392) #A2A2A2;
+    border-style:solid;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-width:1px;
+    box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0 inset, rgba(0, 0, 0, 0.0470588) 0 1px 2px;
+    color:#333333;
+    cursor:pointer;
+    display:inline-block;
+    font-size:16px;
+    margin:7px 0;
+    padding:6px 16px;
+}
+
+#menuContainer {
+    display: inline;
+}
+
+#menu {
+    background-color:#FFFFFF;
+    padding:25px 0;
+    align:center;
+    height:100%;
+    width:100%;
+}
+
+#overlayContainer {
+    display: none;
+}
+
+#overlay {
+    margin-top:50px;
+    padding:5px;
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height:22px;
+}
